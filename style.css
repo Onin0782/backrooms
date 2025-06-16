@@ -143,3 +143,33 @@ li > a:hover {
     font-size : 10px;
     color : white;
 }
+
+@media screen and (max-width: 768px) {
+    #container > .intro {
+        width: 90%; /* 모바일에서는 화면 너비의 90%로 설정 */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container > .about {
+        width: 90%; /* 모바일에서는 화면 너비의 90%로 설정 */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro > p {
+        font-size:8px /* 모바일에서는 화면 너비의 90%로 설정 */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about > p {
+        font-size:8px /* 모바일에서는 화면 너비의 90%로 설정 */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    li > a {
+        font-size:15px /* 모바일에서는 화면 너비의 90%로 설정 */
+    }
+}
